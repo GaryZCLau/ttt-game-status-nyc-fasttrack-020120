@@ -20,5 +20,5 @@ def won?(board)
     return wincomb
   else position_1 == "O" && position_2 == "O" && position_3 == "O"
     return wincomb
-  end
+  end }
 end
