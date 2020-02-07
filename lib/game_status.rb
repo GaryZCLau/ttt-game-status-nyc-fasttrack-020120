@@ -15,9 +15,13 @@ def won?(board)
     position_1 = board[win_index_1]
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
-  }
+
   if position_1 == "X" && position_2 == "X" && positon_3 == "X"
     return wincomb
+  elsif position_1 == "O" && position_2 == "O" && positon_3 == "O"
+    return wincomb
+  else
+    return false
   end
- return false
+}
 end
