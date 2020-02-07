@@ -25,6 +25,6 @@ def won?(board)
   return false
 end
 
-def full (board)
+def full?(board)
   board.each {|space| |space| == "X" || |space| == "O"}
 end
