@@ -19,5 +19,5 @@ def won?(board)
   if position_1 == "X" && position_2 == "X" && positon_3 == "X"
     return wincombo
   end
-
+ return false
 end
